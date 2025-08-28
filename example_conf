@@ -1,0 +1,7 @@
+[settings]
+rate=48000
+device=default
+root=/home/ivan/radio/
+[#comment]
+ids=/home/ivan/radio/commodores
+id_freq=1
