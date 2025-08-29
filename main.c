@@ -116,7 +116,9 @@ int main(int argn , char* argv[]){
         fclose(status);
       }
       #ifndef FAKE
-      play_song(song->path);
+      if(play_song(song->path)==-1){
+        break;
+      }
       #else
        system("sleep 1");
       #endif
