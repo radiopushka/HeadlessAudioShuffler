@@ -187,7 +187,7 @@ Song get_next(){
   if(song_array == NULL)
     return NULL;
   //to be able to detect end of the playlist and refresh
-  if(song_count>array_size){
+  if(song_count>10){//just check the directories every 10 songs
     return NULL;
   }
  // printf("ndiff songs: %d\n",n_diff_songs);
